@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "575325391913",
-    "project_id": "project-41bc9",
-    "storage_bucket": "project-41bc9.appspot.com"
+    "project_number": "139849338729",
+    "firebase_url": "https://books-fe392-default-rtdb.firebaseio.com",
+    "project_id": "books-fe392",
+    "storage_bucket": "books-fe392.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:575325391913:android:2efcb0536ec4c70353a038",
+        "mobilesdk_app_id": "1:139849338729:android:a3dc0d80af651ca684f7f8",
         "android_client_info": {
           "package_name": "com.example.flutter_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "575325391913-3ek3eejjru5lcm7srgr6hnn9db7o0fqa.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.flutter_project",
-            "certificate_hash": "349855f7fc5fe0e2c126e208c4ecd12fd2c5d171"
-          }
-        },
-        {
-          "client_id": "575325391913-ielo1h6md08b5h1ejdkob9dpoj5jlenh.apps.googleusercontent.com",
+          "client_id": "139849338729-d4t5qc7v46ad0lif0qjd7uo1gqi5iitf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA1OL4RDkiecwoOz9GpiXjcgh234ZRY8YA"
+          "current_key": "AIzaSyDUZ9v0rzYlCdSjnCQ_R7wgz3vFaBI6pqg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "575325391913-ielo1h6md08b5h1ejdkob9dpoj5jlenh.apps.googleusercontent.com",
+              "client_id": "139849338729-d4t5qc7v46ad0lif0qjd7uo1gqi5iitf.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "139849338729-6ne85ra9jjqql1s7h8s3aug7fprg1i7l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterProject"
+              }
             }
           ]
         }
