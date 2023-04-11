@@ -1,3 +1,4 @@
+
 import 'quizscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -70,7 +71,7 @@ class SubjectListScreen extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const QuizScreen(),
+                            builder: (context) => QuizScreen(),
                           ),
                         );
                       },
