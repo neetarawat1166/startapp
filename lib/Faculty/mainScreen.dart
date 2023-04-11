@@ -19,9 +19,26 @@ class _FacultyHomeState extends State<FacultyHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: ResponsiveWidget.isLargeScreen(context)
-          ? PreferredSize(preferredSize: Size(screenWidth(context), 70), child: const TopBarFaculty())
+          ? PreferredSize(
+              preferredSize: Size(screenWidth(context), 70),
+              child: const TopBarFaculty())
           : appBarWithLogout(context, "My Quizzes"),
-      floatingActionButton: floatingButtonCreate(context),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          SizedBox(
+            height: 56.0,
+            child: floatingButtonuploadbook(context),
+          ),
+          SizedBox(
+            height: 16.0,
+          ),
+          SizedBox(
+            height: 56.0,
+            child: floatingButtonCreatequiz(context),
+          ),
+        ],
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       drawer: navigationDrawer(context),
       body: showQuiz(context),

@@ -135,10 +135,7 @@ class _FirstPageState extends State<FirstPage> {
             ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          final path = await FlutterDocumentPicker.openDocument();
-          print(path);
-          File file = File(path!);
-          firebase_storage.UploadTask? task = await uploadFile(file);
+          fileUpload();
         },
         child: Icon(
           Icons.add,
@@ -175,5 +172,12 @@ class _FirstPageState extends State<FirstPage> {
 
       //get data from firebase
     });
+  }
+
+  Future<void> fileUpload() async {
+    final path = await FlutterDocumentPicker.openDocument();
+    print(path);
+    File file = File(path!);
+    firebase_storage.UploadTask? task = await uploadFile(file);
   }
 }
