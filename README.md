@@ -1,6 +1,6 @@
-# BV Doubnut
+# BV Doubtnut
 
-Champ Quizz - A Quiz App
+BV Doubtnut - A Study App
 
 
 ## Technology Used:
@@ -12,8 +12,8 @@ Champ Quizz - A Quiz App
 - Web - https://champquizz.netlify.app/#/
 
 Project has two Sections Student and Faculty :
-- In Student you can participate in a Quiz.
-- In Faculty you can create a Quiz
+- In Student you can view books and give test.
+- In Faculty you can create a Quiz and upload books.
 
 
 ## Approach:
