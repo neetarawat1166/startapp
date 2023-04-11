@@ -3,6 +3,7 @@ import 'package:flutter_project/Others/mainPage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:flutter_project/Student/Books/mainbook.dart';
 
 import '../../aboutPage/mainPage.dart';
 import '../../constants/constantString.dart';
@@ -44,26 +45,6 @@ ListTile listTileCheckScore(context) {
       Navigator.pop(context);
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => const CheckScore()));
-    },
-  );
-}
-
-ListTile listTileOthers(context) {
-  return ListTile(
-    contentPadding: const EdgeInsets.only(top: 15, left: 20),
-    leading: Icon(FontAwesomeIcons.heart,
-        size: setSize(context, 17), color: Colors.black),
-    title: Text(
-      "Others",
-      style: TextStyle(
-        fontSize: setSize(context, 17),
-        fontWeight: FontWeight.w400,
-      ),
-    ),
-    onTap: () {
-      Navigator.pop(context);
-      Navigator.push(
-          context, MaterialPageRoute(builder: (context) => const OtherPage()));
     },
   );
 }
@@ -163,5 +144,42 @@ ListTile listTileShare(context) {
           fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
     ),
     onTap: () {},
+  );
+}
+
+ListTile listTileBooks(context) {
+  return ListTile(
+    contentPadding: const EdgeInsets.only(top: 15, left: 20),
+    leading: const Icon(FontAwesomeIcons.book, size: 20, color: Colors.black),
+    title: Text(
+      "Books",
+      style: TextStyle(
+          fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
+    ),
+    onTap: () {
+      Navigator.pop(context);
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => const MyHomePage()));
+    },
+  );
+}
+
+ListTile listTileOthers(context) {
+  return ListTile(
+    contentPadding: const EdgeInsets.only(top: 15, left: 20),
+    leading: Icon(FontAwesomeIcons.heart,
+        size: setSize(context, 17), color: Colors.black),
+    title: Text(
+      "Others",
+      style: TextStyle(
+        fontSize: setSize(context, 17),
+        fontWeight: FontWeight.w400,
+      ),
+    ),
+    onTap: () {
+      Navigator.pop(context);
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => const OtherPage()));
+    },
   );
 }

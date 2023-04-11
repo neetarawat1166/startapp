@@ -20,6 +20,7 @@ Drawer navigationDrawerStudent(context) {
           listTilePrivacyPolicy(context),
           listTileTerms(context),
           listTileShare(context),
+          listTileBooks(context)
         ],
       ),
     ),
