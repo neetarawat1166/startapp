@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project/Others/mainPage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -43,6 +44,26 @@ ListTile listTileCheckScore(context) {
       Navigator.pop(context);
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => const CheckScore()));
+    },
+  );
+}
+
+ListTile listTileOthers(context) {
+  return ListTile(
+    contentPadding: const EdgeInsets.only(top: 15, left: 20),
+    leading: Icon(FontAwesomeIcons.heart,
+        size: setSize(context, 17), color: Colors.black),
+    title: Text(
+      "Others",
+      style: TextStyle(
+        fontSize: setSize(context, 17),
+        fontWeight: FontWeight.w400,
+      ),
+    ),
+    onTap: () {
+      Navigator.pop(context);
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => const OtherPage()));
     },
   );
 }
