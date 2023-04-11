@@ -36,7 +36,10 @@ class TopBarFaculty extends StatelessWidget {
                 child: TextButton(
                     onPressed: () {
                       Navigator.pop(context);
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => const FacultyHome()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const FacultyHome()));
                     },
                     child: const Text("My Quiz",
                         style: TextStyle(color: Colors.white, fontSize: 20))),
@@ -46,7 +49,10 @@ class TopBarFaculty extends StatelessWidget {
                 child: TextButton(
                     onPressed: () {
                       Navigator.pop(context);
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => const CreateQuiz()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const CreateQuiz()));
                     },
                     child: const Text("Create Quiz",
                         style: TextStyle(color: Colors.white, fontSize: 20))),
@@ -56,7 +62,10 @@ class TopBarFaculty extends StatelessWidget {
                 child: TextButton(
                     onPressed: () {
                       Navigator.pop(context);
-                      Navigator.push(context,MaterialPageRoute(builder: (context) => const StudentResult()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const StudentResult()));
                     },
                     child: const Text("Check Score",
                         style: TextStyle(color: Colors.white, fontSize: 20))),
@@ -65,7 +74,11 @@ class TopBarFaculty extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: TextButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const ProfilePage(),));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const ProfilePage(),
+                        ));
                   },
                   child: const Text("My Profile",
                       style: TextStyle(color: Colors.white, fontSize: 20)),
@@ -75,30 +88,26 @@ class TopBarFaculty extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: TextButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const AboutPage()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const AboutPage()));
                   },
                   child: const Text("About Us",
                       style: TextStyle(color: Colors.white, fontSize: 20)),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: TextButton(
-                  onPressed: () async {
-                    await launchUrlString(privacyPolicyURL);
+              IconButton(
+                  onPressed: () {
+                    showDialog(
+                      context: context,
+                      builder: (context) {
+                        return alertDialogSignOut(context);
+                      },
+                    );
                   },
-                  child: const Text("Privacy Policy",
-                      style: TextStyle(color: Colors.white, fontSize: 20)),
-                ),
-              ),
-              IconButton(onPressed: () {
-                showDialog(
-                  context: context,
-                  builder: (context) {
-                    return alertDialogSignOut(context);
-                  },
-                );
-              }, icon: const Icon(FontAwesomeIcons.rightFromBracket,color: Colors.white))
+                  icon: const Icon(FontAwesomeIcons.rightFromBracket,
+                      color: Colors.white))
             ],
           ),
         ],

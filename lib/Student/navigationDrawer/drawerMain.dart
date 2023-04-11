@@ -12,15 +12,13 @@ Drawer navigationDrawerStudent(context) {
       child: Column(
         children: [
           drawerHeader(context),
+          listTileProfile(context),
           listTileMyQuiz(context),
           listTileCheckScore(context),
+          listTileBooks(context),
           listTileOthers(context),
-          listTileProfile(context),
+          listTileFeed(context),
           listTileAbout(context),
-          listTilePrivacyPolicy(context),
-          listTileTerms(context),
-          listTileShare(context),
-          listTileBooks(context)
         ],
       ),
     ),

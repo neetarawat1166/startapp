@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Champ Quizz',
+        title: 'BV Doubtnut',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

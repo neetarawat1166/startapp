@@ -84,16 +84,6 @@ class TopBarStudent extends StatelessWidget {
                       style: TextStyle(color: Colors.white, fontSize: 20)),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: TextButton(
-                  onPressed: () async {
-                    await launchUrlString(privacyPolicyURL);
-                  },
-                  child: const Text("Privacy Policy",
-                      style: TextStyle(color: Colors.white, fontSize: 20)),
-                ),
-              ),
               IconButton(
                   onPressed: () {
                     showDialog(

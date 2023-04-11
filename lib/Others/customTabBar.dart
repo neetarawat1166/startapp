@@ -69,7 +69,7 @@ class _CustomTabBarState extends State<CustomTabBar>
                   ),
                 ),
                 Tab(
-                  text: "Faculties",
+                  text: "",
                   icon: Icon(
                     Icons.person_outline,
                     color: Colors.white,
@@ -86,8 +86,9 @@ class _CustomTabBarState extends State<CustomTabBar>
                 "Step 1: Parcel you leave docment from your house that is being signed by your parents.\n\nStep 2: When your leave process is arrived do signed it by you Wareden.\n\nStep 3: Then go to Vaani Mandir and verify your parents signature form the office.\n\nStep 4: Now next step is to go to your Department and do signed this docment by your respective HOD.\n\nStep 5: Now again go to your hostel and signed this leave again by your Warden.\n\nStep 6: Now your final step is to go to Vanni Mandir and submit this leave.From there you'll get a slip that mentions your departure date.\n\nStep 7:Now its a final step where you have to take final signature of your Warden and give half part of the slip to her.\n\n\n\n\n\n\n\n\n\n\n\n\nNOW YOU ARE ALL DONE WITH THE LEAVE PROCESS........",
                 style: TextStyle(fontSize: 15, fontFamily: 'OoohBaby'),
               )),
-              Center(child: Text("HII")),
-              Center(child: Text("Hey")),
+              Center(
+                  child: Text("Varoius Clubs In Banasthali Vidyapith:\n\n1.")),
+              Center(child: Text("")),
             ],
           )),
     );
