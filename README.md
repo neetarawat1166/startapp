@@ -1,4 +1,4 @@
-# Champ Quizz
+# BV Doubnut
 
 Champ Quizz - A Quiz App
 
