@@ -7,10 +7,6 @@ BV Doubtnut - A Study App
 - Flutter
 - Firebase
 
-## How to Install:
-- APK - https://www.amazon.com/dp/B0BSCJ37CY/ref=apps_sf_sta
-- Web - https://champquizz.netlify.app/#/
-
 Project has two Sections Student and Faculty :
 - In Student you can view books and give test.
 - In Faculty you can create a Quiz and upload books.

@@ -40,7 +40,7 @@ Widget floatingButtonquiz(context) {
                 return AlertDialog(
                   title: const Text("Alert",
                       style: TextStyle(
-                          color: Colors.red,
+                          color: Colors.black,
                           fontSize: 25,
                           fontWeight: FontWeight.bold)),
                   elevation: 20,
@@ -130,7 +130,7 @@ Widget floatingButtonbook(context) {
                 return AlertDialog(
                   title: const Text("Alert",
                       style: TextStyle(
-                          color: Colors.red,
+                          color: Colors.black,
                           fontSize: 25,
                           fontWeight: FontWeight.bold)),
                   elevation: 20,

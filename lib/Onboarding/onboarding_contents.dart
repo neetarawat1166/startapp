@@ -17,7 +17,7 @@ List<OnboardingContents> contents = [
     desc: "Remember to keep track of your accomplishments.",
   ),
   OnboardingContents(
-    title: "Download Books",
+    title: "View Books",
     image: "assets/images/image2.png",
     desc:
         "Don't forget to solve your doubts with BV Doubtnut",

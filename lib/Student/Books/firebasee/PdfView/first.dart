@@ -9,16 +9,19 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 import 'package:flutter/material.dart';
 import 'package:flutter_document_picker/flutter_document_picker.dart';
-import 'Modal.dart';
 
-import 'secondPage.dart';
+import '../../../../Faculty/PdfFirebase/Modal.dart';
+import '../../../../Faculty/PdfFirebase/secondPage.dart';
 
-class FirstPage extends StatefulWidget {
+
+
+
+class FirstPagee extends StatefulWidget {
   @override
   _FirstPageState createState() => _FirstPageState();
 }
 
-class _FirstPageState extends State<FirstPage> {
+class _FirstPageState extends State<FirstPagee> {
   List<Modal> itemList = [];
   // PlatformFile? pickedFile;
   final mainReference = FirebaseDatabase.instance.reference().child('Database');
@@ -109,7 +112,7 @@ class _FirstPageState extends State<FirstPage> {
                           //   height: 100,
                           //   decoration: BoxDecoration(
                           //     image: DecorationImage(
-                          //       image: AssetImage('image1.png'),
+                          //       image: AssetImage('bg999.jpg'),
                           //       fit: BoxFit.cover,
                           //     ),
                           //   ),
@@ -133,16 +136,19 @@ class _FirstPageState extends State<FirstPage> {
                     ));
               },
             ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          fileUpload();
-        },
-        child: Icon(
-          Icons.add,
-          color: Colors.white,
-        ),
-        backgroundColor: Colors.black,
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () async {
+      //     final path = await FlutterDocumentPicker.openDocument();
+      //     print(path);
+      //     File file = File(path!);
+      //     firebase_storage.UploadTask? task = await uploadFile(file);
+      //   },
+      //   child: Icon(
+      //     Icons.add,
+      //     color: Colors.white,
+      //   ),
+      //   backgroundColor: Colors.red,
+      // ),
     );
   }
 
@@ -172,12 +178,5 @@ class _FirstPageState extends State<FirstPage> {
 
       //get data from firebase
     });
-  }
-
-  Future<void> fileUpload() async {
-    final path = await FlutterDocumentPicker.openDocument();
-    print(path);
-    File file = File(path!);
-    firebase_storage.UploadTask? task = await uploadFile(file);
   }
 }
