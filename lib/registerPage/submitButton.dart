@@ -20,7 +20,9 @@ Widget buttonSubmit() {
 
 Widget buttonContent(providerValue, context) {
   return ElevatedButton(
-      style: const ButtonStyle(elevation: MaterialStatePropertyAll(20)),
+      style: const ButtonStyle(
+          elevation: MaterialStatePropertyAll(20),
+          backgroundColor: const MaterialStatePropertyAll(Colors.blueGrey)),
       onPressed: () async {
         if (providerValue.email.trim() != "" &&
             providerValue.password != "" &&
@@ -38,7 +40,9 @@ Widget buttonContent(providerValue, context) {
       child: Text(
         "Submit",
         style: TextStyle(
-            fontWeight: FontWeight.bold, fontSize: setSize(context, 22)),
+          fontWeight: FontWeight.bold,
+          fontSize: setSize(context, 22),
+        ),
       ));
 }
 

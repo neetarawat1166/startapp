@@ -15,7 +15,7 @@ class _OtherPageState extends State<OtherPage> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.lightGreen,
+        primarySwatch: Colors.blueGrey,
         tabBarTheme: TabBarTheme(labelColor: Colors.white),
       ),
       home: CustomTabBar(),

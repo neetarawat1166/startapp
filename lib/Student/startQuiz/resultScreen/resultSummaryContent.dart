@@ -31,7 +31,7 @@ Widget message(result, context) {
       child: Text("Hurray, You Passed the Test !!!",
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: Colors.green,
+              color: Color.fromARGB(255, 36, 8, 194),
               fontSize: setSize(context, 30),
               fontWeight: FontWeight.w600)),
     );

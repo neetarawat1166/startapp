@@ -1,4 +1,3 @@
-
 import 'quizscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -54,6 +53,7 @@ class SubjectListScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text("Semester List"),
+        backgroundColor: Colors.blueGrey,
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -75,7 +75,7 @@ class SubjectListScreen extends StatelessWidget {
                           ),
                         );
                       },
-                      tileColor: Colors.teal,
+                      tileColor: Color.fromARGB(255, 74, 76, 76),
                       textColor: Colors.white,
                       iconColor: Colors.white,
                       title: Text(

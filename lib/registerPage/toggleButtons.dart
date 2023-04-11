@@ -14,7 +14,7 @@ Widget toggleForStudentFaculty() {
         child: ToggleSwitch(
           cornerRadius: 15,
           fontSize: setSize(context, 18),
-          activeBgColor: const [Colors.green],
+          activeBgColor: const [Color.fromARGB(255, 177, 109, 222)],
           borderWidth: setSize(context, 5),
           animate: true,
           minWidth: setSize(context, 130),

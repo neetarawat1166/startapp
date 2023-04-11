@@ -14,7 +14,8 @@ Widget addQuestionsButton(context) {
           FocusScope.of(context).requestFocus(FocusNode());
           dialogBuilder(context);
         },
-        child: const Icon(Icons.add, color: Colors.white, size: 35),
+        child: const Icon(Icons.add,
+            color: Color.fromARGB(255, 237, 233, 233), size: 35),
       ));
 }
 

@@ -9,7 +9,7 @@ Widget textFieldName() {
       return Container(
         margin: const EdgeInsets.symmetric(vertical: 10),
         child: TextFormField(
-          style: const TextStyle(color: Colors.white),
+          style: const TextStyle(color: Color.fromARGB(255, 2, 2, 2)),
           keyboardType: TextInputType.name,
           textCapitalization: TextCapitalization.words,
           decoration: textFieldDecoration("Name"),
@@ -28,7 +28,7 @@ Widget textFieldEmail() {
       return Container(
         margin: EdgeInsets.symmetric(vertical: 10),
         child: TextFormField(
-          style: const TextStyle(color: Colors.white),
+          style: const TextStyle(color: Color.fromARGB(255, 18, 17, 17)),
           keyboardType: TextInputType.emailAddress,
           decoration: textFieldDecoration("Email"),
           onChanged: (value) {
@@ -47,7 +47,7 @@ Widget textFieldPassword() {
         margin: const EdgeInsets.symmetric(vertical: 10),
         child: TextFormField(
           obscureText: true,
-          style: const TextStyle(color: Colors.white),
+          style: const TextStyle(color: Color.fromARGB(255, 18, 17, 17)),
           keyboardType: TextInputType.visiblePassword,
           decoration: textFieldDecoration("Password"),
           onChanged: (value) {
@@ -62,7 +62,7 @@ Widget textFieldPassword() {
 InputDecoration textFieldDecoration(String label) {
   return InputDecoration(
       labelText: label,
-      labelStyle: const TextStyle(color: Colors.white),
+      labelStyle: const TextStyle(color: Color.fromARGB(255, 9, 9, 9)),
       enabledBorder: textFieldBorder(),
       focusedBorder: textFieldBorder());
 }
@@ -71,5 +71,7 @@ OutlineInputBorder textFieldBorder() {
   return OutlineInputBorder(
       borderRadius: BorderRadius.circular(20),
       borderSide: const BorderSide(
-          color: Colors.white, style: BorderStyle.solid, width: 2));
+          color: Color.fromARGB(255, 17, 16, 16),
+          style: BorderStyle.solid,
+          width: 2));
 }

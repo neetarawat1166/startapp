@@ -34,7 +34,7 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(child: const Text('Feedback form')),
-        backgroundColor: Color.fromARGB(255, 118, 216, 103),
+        backgroundColor: Colors.blueGrey,
       ),
       body: Container(
         width: double.infinity,
@@ -49,7 +49,7 @@ class MainScreen extends StatelessWidget {
           child: ElevatedButton(
             child: const Text('Open form'),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Color.fromARGB(255, 28, 220, 7),
+              backgroundColor: Colors.blueGrey,
             ),
             onPressed: () {
               showDialog(

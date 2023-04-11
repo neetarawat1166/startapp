@@ -14,10 +14,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         appBar: AppBar(
           title: Center(
-              child: Text(
-            "Courses",
-            style: TextStyle(color: Colors.white),
-          )),
+            child: Text(
+              "Courses",
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+          backgroundColor: Colors.blueGrey,
         ),
         body: Container(
             child: Padding(
@@ -31,8 +33,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.green,
-                      Color.fromARGB(179, 203, 232, 72),
+                      Color.fromARGB(255, 81, 83, 82),
+                      Color.fromARGB(179, 39, 39, 39),
                     ],
                   ),
                 ),
@@ -66,8 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.green,
-                      Color.fromARGB(179, 203, 232, 72),
+                      Color.fromARGB(255, 81, 83, 82),
+                      Color.fromARGB(179, 39, 39, 39),
                     ],
                   ),
                 ),
@@ -101,8 +103,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.green,
-                      Color.fromARGB(179, 203, 232, 72),
+                      Color.fromARGB(255, 81, 83, 82),
+                      Color.fromARGB(179, 39, 39, 39),
                     ],
                   ),
                 ),
@@ -136,8 +138,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.green,
-                      Color.fromARGB(179, 203, 232, 72),
+                      Color.fromARGB(255, 81, 83, 82),
+                      Color.fromARGB(179, 39, 39, 39),
                     ],
                   ),
                 ),

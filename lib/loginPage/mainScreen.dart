@@ -56,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
     return Container(
       decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: Colors.white,
+          color: Color.fromARGB(255, 20, 18, 18),
           border: Border.all(color: Colors.black, width: 1.7)),
       margin: const EdgeInsets.only(bottom: 50),
       width: 150,
@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
 Widget loginText(context) {
   return Container(
     decoration: BoxDecoration(
-        color: hexToColor("#079375"),
+        color: hexToColor("#808080"),
         shape: BoxShape.rectangle,
         borderRadius: BorderRadius.circular(20)),
     padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 7),
@@ -81,7 +81,7 @@ Widget loginText(context) {
         style: TextStyle(
             fontSize: setSize(context, 30),
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Color.fromARGB(255, 13, 13, 13),
             fontStyle: FontStyle.normal)),
   );
 }
@@ -89,12 +89,12 @@ Widget loginText(context) {
 BoxDecoration pageDecoration() {
   return const BoxDecoration(
       gradient: LinearGradient(colors: [
-    Colors.redAccent,
-    Colors.orange,
-    Colors.grey,
-    Colors.brown,
-    Colors.blueAccent,
-    Colors.blue,
+    Color.fromARGB(255, 252, 221, 213),
+    Color.fromARGB(255, 252, 221, 213),
+    Color.fromARGB(255, 252, 221, 213),
+    Color.fromARGB(255, 252, 221, 213),
+    Color.fromARGB(255, 252, 221, 213),
+    Color.fromARGB(255, 252, 221, 213),
   ], stops: [
     0.1,
     0.2,

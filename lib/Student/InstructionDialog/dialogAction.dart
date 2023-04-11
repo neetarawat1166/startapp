@@ -36,7 +36,7 @@ Widget alertDialogActions(context) {
                 MaterialPageRoute(builder: (context) => const StartQuiz()));
           },
           style: const ButtonStyle(
-              backgroundColor: MaterialStatePropertyAll(Colors.green)),
+              backgroundColor: MaterialStatePropertyAll(Colors.blueGrey)),
           child: const Text("Start Test"));
     },
   );

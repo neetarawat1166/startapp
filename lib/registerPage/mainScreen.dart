@@ -59,19 +59,19 @@ class _RegisterState extends State<Register> {
       style: TextStyle(
           fontSize: setSize(context, 35),
           fontWeight: FontWeight.w800,
-          color: Colors.white),
+          color: Color.fromARGB(255, 12, 12, 12)),
     );
   }
 
   BoxDecoration pageDecoration() {
     return const BoxDecoration(
         gradient: LinearGradient(colors: [
-      Colors.deepOrange,
-      Colors.orangeAccent,
-      Colors.grey,
-      Colors.blueGrey,
-      Colors.blueAccent,
-      Colors.blue,
+      Color.fromARGB(255, 220, 246, 230),
+      Color.fromARGB(255, 220, 246, 230),
+      Color.fromARGB(255, 220, 246, 230),
+      Color.fromARGB(255, 220, 246, 230),
+      Color.fromARGB(255, 220, 246, 230),
+      Color.fromARGB(255, 220, 246, 230),
     ], stops: [
       0.1,
       0.3,

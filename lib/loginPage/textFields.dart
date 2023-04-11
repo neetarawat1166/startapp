@@ -46,7 +46,7 @@ InputDecoration inputTextDecoration(String value) {
     contentPadding: const EdgeInsets.all(20),
     labelText: value,
     labelStyle: textStyleLabel(),
-    focusColor: Colors.white,
+    focusColor: Color.fromARGB(255, 11, 11, 11),
     focusedBorder: textFieldBorder(),
     enabledBorder: textFieldBorder(),
   );
@@ -55,12 +55,12 @@ InputDecoration inputTextDecoration(String value) {
 // Border for above TextFormFields...............................
 OutlineInputBorder textFieldBorder() {
   return OutlineInputBorder(
-      borderSide: const BorderSide(color: Colors.white),
+      borderSide: const BorderSide(color: Color.fromARGB(255, 18, 18, 18)),
       borderRadius: BorderRadius.circular(20),
       gapPadding: 5);
 }
 
 // Text Styling for above TextFormFields.........................
 TextStyle textStyleLabel() {
-  return const TextStyle(color: Colors.white);
+  return const TextStyle(color: Color.fromARGB(255, 2, 2, 2));
 }

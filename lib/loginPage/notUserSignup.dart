@@ -13,7 +13,7 @@ Widget notUserSignup(context) {
       },
       child: Text("Not a User? Click here SignUp",
           style: TextStyle(
-              color: Colors.white,
+              color: Color.fromARGB(255, 17, 17, 17),
               fontWeight: FontWeight.w600,
               fontSize: setSize(context, 22))),
     ),

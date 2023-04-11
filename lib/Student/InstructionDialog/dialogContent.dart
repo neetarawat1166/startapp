@@ -6,7 +6,9 @@ import '../../../reusableWidgets/Responsive.dart';
 
 Text alertDialogTitle(context) {
   return Text("Instructions",
-      style: TextStyle(color: Colors.red, fontSize: setSize(context, 22)));
+      style: TextStyle(
+          color: Color.fromARGB(255, 10, 32, 200),
+          fontSize: setSize(context, 22)));
 }
 
 Widget alertDialogContent(context) {
