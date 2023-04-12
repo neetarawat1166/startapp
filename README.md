@@ -35,7 +35,7 @@ Project has two Sections Student and Faculty :
 ## Resources:
 http://pub.dev/
 
-## Coclusion:
+## Conclusion:
 <b>BV Doubtnut</b> is basically Banasthali’s official study app that intends to help Banasthalites to grab knowledge as well as to test their knowledge by solving the quiz provided there of a particular subject. Unlike other study apps, BV Doubtnut is built on the ideas that not only provide books but also give additional information about other fields like clubs information, leave process, etc.
 The main purpose behind BV Doubtnut is the use of existing technology that everyone has (smartphones).Our role in this product is to create an app that contains overall information that new student faces in their early years at Banasthali Vidyapith.
 
