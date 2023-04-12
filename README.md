@@ -1,11 +1,15 @@
-# BV Doubtnut
+# BV Doubtnut  
+![logo](https://user-images.githubusercontent.com/76403786/231396925-4710918c-2ca8-4d64-b046-257a1bd6f119.png)
 
-BV Doubtnut - A Study App
+<b>BV Doubtnut - A Study App</b>
 
+## Introduction:
+The purpose of this project is to build an application as a step of contribution towards the university. It is built to help students that mostly get stuck in the leave process, and can't find books on a particular subject  at the last moment of exams, as well as details of college clubs.
 
-## Technology Used:
-- Flutter
-- Firebase
+## Technologies Used:
+
+![Screenshot 2023-04-12 134454](https://user-images.githubusercontent.com/76403786/231395753-1279faf5-1d0e-465c-b329-ddfc7729d8d8.png)
+
 
 Project has two Sections Student and Faculty :
 - In Student you can view books and give test.
@@ -18,15 +22,20 @@ Project has two Sections Student and Faculty :
 - State-Management tool - Provider
 
 ## Screenshots:
-![Screenshot_20230412-061312](https://user-images.githubusercontent.com/76403786/231322588-34156f45-0937-43aa-8313-4eedcc2f766f.jpg)
-![Screenshot_20230412-061505](https://user-images.githubusercontent.com/76403786/231322611-e365f07b-2c71-411d-8854-7d28eae91fe4.jpg)
-![Screenshot_20230412-061128](https://user-images.githubusercontent.com/76403786/231322618-1a4eb4b1-298e-464c-a097-3ac5e26f7235.jpg)
-![Screenshot_20230412-061137](https://user-images.githubusercontent.com/76403786/231322633-0998f5af-f880-453d-88bd-75363961eb0d.jpg)
-![Screenshot_20230412-061521](https://user-images.githubusercontent.com/76403786/231322645-0325cbb7-7122-43f8-ab67-82ac135003da.jpg)
-![Screenshot_20230412-061143](https://user-images.githubusercontent.com/76403786/231322752-714b62a3-ff47-4cce-956d-d398a31b62ce.jpg)
 
 
+![Screenshot 2023-04-12 132332](https://user-images.githubusercontent.com/76403786/231390499-974a7d7e-750b-4007-be48-0992e4a2480b.png)
 
+![Screenshot 2023-04-12 133036](https://user-images.githubusercontent.com/76403786/231392148-bb53fdfa-f53c-4157-85ec-3742c1481db9.png)
+
+![Screenshot 2023-04-12 133434](https://user-images.githubusercontent.com/76403786/231393225-35aad9c3-801b-4244-840a-6ab323a40ee5.png)
+
+![Screenshot 2023-04-12 133702](https://user-images.githubusercontent.com/76403786/231393765-3ecaabd7-cd33-445d-8c84-8f312daefeb1.png)
 
 ## Resources:
 http://pub.dev/
+
+## Coclusion:
+<b>BV Doubtnut</b> is basically Banasthali’s official study app that intends to help Banasthalites to grab knowledge as well as to test their knowledge by solving the quiz provided there of a particular subject. Unlike other study apps, BV Doubtnut is built on the ideas that not only provide books but also give additional information about other fields like clubs information, leave process, etc.
+The main purpose behind BV Doubtnut is the use of existing technology that everyone has (smartphones).Our role in this product is to create an app that contains overall information that new student faces in their early years at Banasthali Vidyapith.
+
